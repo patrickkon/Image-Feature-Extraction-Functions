@@ -1,7 +1,7 @@
 # Feature- Radial Symmetry (Balance)
 Folder information: <br />
-Images - For your viewing. Contains input and output images that were tested <br /><br />
-radial_symmetry_package - contains the actual package that can be directly imported
+Images - For your viewing. Contains input and output images that were tested. <br />
+radial_symmetry_package - Contains the actual package that can be directly imported.
 <br />
 
 **_Usage: Simply import radial_symmetry_v2_package_**
@@ -19,14 +19,12 @@ radial_symmetry_package - contains the actual package that can be directly impor
 
 * Note that the second argument accepts a tuple, so for single radius, use: (5,)
 
-<br />
-*For more explanation on parameter meaning/values:*
-<br />
-1. Peek into frst function definition when calling
-<br />
-2. Take a look at the research paper
-<br /><br /><br />
 
+*For more explanation on parameter meaning/values:*
+1. Peek into frst function definition when calling
+2. Take a look at the research paper
+
+***
 
 #### Version 2 Changes:
 In general, modified to conform as closely as I could with the research paper

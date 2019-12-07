@@ -1,24 +1,26 @@
-# Feature - Radial Symmetry (Balance)
+# Feature- Radial Symmetry (Balance)
 Folder information: <br />
 Images - For your viewing. Contains input and output images that were tested <br /><br />
 radial_symmetry_package - contains the actual package that can be directly imported
 <br />
 
-Usage: Simply import radial_symmetry_v2_package
-Usage guide: 
+**_Usage: Simply import radial_symmetry_v2_package_**
+
+*Usage guide:* 
 1. Copy folder "radial_symmetry_v2_package" to your directory
 2. In python file: from radial_symmetry_v2_package import radial_symmetry_balance
-<br /> <br />
-Note: **frst** is the function that computes radial symmetry
 
-Note: recommended parameter values (as indicated in research paper)
 
-frst(image, (1,2,3,4,5), 2, 0.2, 2.5, mode='BOTH')
+*Note:* 
+1. *_frst_* is the function that computes radial symmetry
+2. recommended parameter values (as indicated in research paper)
+
+* frst(image, (1,2,3,4,5), 2, 0.2, 2.5, mode='BOTH')
 
 * Note that the second argument accepts a tuple, so for single radius, use: (5,)
 
 <br />
-For more explanation on parameter meaning/values:
+*For more explanation on parameter meaning/values:*
 <br />
 1. Peek into frst function definition when calling
 <br />
